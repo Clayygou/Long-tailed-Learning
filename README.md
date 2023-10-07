@@ -19,8 +19,11 @@ Summary of the long-tailed learning algorithms
 HTTN能够有效地检测从少量样本学习到大量样本学习的模型转换策略（即关于学习的元知识）在头标签上的表现。借助元知识和头尾标签之间的标签依赖关系，HTTN能够高效地构建尾标签的分类器(数据集 AAPD、RCV1、EUR-Lex)。
 #### 2. Balancing Methods for Multi-label Text Classification with Long-Tailed Class Distribution (2021)
 
-在文本分类问题上引入了 FL、CB、DB三种loss(Reuters-21578、PubMed)。
+在文本分类问题上引入了 FL、CB、DB三种loss（Reuters-21578、PubMed）。
 
 #### 3. Meta-LMTC: Meta-Learning for Large-Scale Multi-Label Text Classification (2021)
 
 第一个元学习框架（MIMIC-III、EURLEX57K，包含zero-shot数据）。
+
+## Relation Extraction
+#### 1. Learning Relation Prototype from Unlabeled Texts for Long-tail Relation Extraction (2023)
