@@ -12,3 +12,15 @@ Summary of the long-tailed learning algorithms
 #### 1. Improving Calibration for Long-Tailed Recognition （2021）[For detailed](https://blog.csdn.net/weixin_41246832/article/details/127335796?spm=1001.2014.3001.5501)
 
 引入了Expected calibration error的概念，通过在第一阶段使用mixup和LAS标签平滑可以有效地减低ECE。并在第二阶段只训练BN缓解两阶段数据的分布差异。
+
+## Multi-Label Text Classification
+#### 1. Does Head Label Help for Long-Tailed Multi-Label Text Classification (2021)
+
+HTTN能够有效地检测从少量样本学习到大量样本学习的模型转换策略（即关于学习的元知识）在头标签上的表现。借助元知识和头尾标签之间的标签依赖关系，HTTN能够高效地构建尾标签的分类器(数据集 AAPD、RCV1、EUR-Lex)。
+#### 2. Balancing Methods for Multi-label Text Classification with Long-Tailed Class Distribution (2021)
+
+在文本分类问题上引入了 FL、CB、DB三种loss(Reuters-21578、PubMed)。
+
+#### 3. Meta-LMTC: Meta-Learning for Large-Scale Multi-Label Text Classification (2021)
+
+第一个元学习框架（MIMIC-III、EURLEX57K，包含zero-shot数据）。
