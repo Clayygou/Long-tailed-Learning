@@ -27,3 +27,14 @@ HTTN能够有效地检测从少量样本学习到大量样本学习的模型转�
 
 ## Relation Extraction
 #### 1. Learning Relation Prototype from Unlabeled Texts for Long-tail Relation Extraction (2023)
+
+
+## Graph Classification
+
+#### 1. Towards Long-Tailed Recognition for Graph Classification via Collaborative Experts(2023)
+
+#### 2. Characterizing Long-Tail Categories on Graphs(2023)
+
+
+## Scene Text Recognition
+#### 1. Improving Scene Text Recognition for Character-Level Long-Tailed Distribution(2023)
