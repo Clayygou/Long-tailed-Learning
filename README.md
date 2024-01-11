@@ -38,3 +38,7 @@ HTTN能够有效地检测从少量样本学习到大量样本学习的模型转�
 
 ## Scene Text Recognition
 #### 1. Improving Scene Text Recognition for Character-Level Long-Tailed Distribution(2023)
+
+
+## Recommend
+#### 1. Empowering Long-tail Item Recommendation through Cross Decoupling Network (2023 kDD)
