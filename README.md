@@ -6,7 +6,9 @@ Summary of the long-tailed learning algorithms
 
 提出了一个多专家的方法RIDE：采用多个专家来减少模型方差，并采用额外的分布多样性损失来减少模型偏差。并设计了一个专家分配模块来判断每一个样本需要多少个专家参与。
 
-#### 2. Learning From Multiple Experts: Self-paced Knowledge Distillation for Long-tailed Classificatio（2020）
+#### 2. Learning From Multiple Experts: Self-paced Knowledge Distillation for Long-tailed Classification（2020）
+
+首先作者提出了评价“长尾性”的4个指标，发现将整体数据划分为更小的邻接子集会减少长尾性。所以作者设计了多个小数据集上的专家模型共同指导一个学生模型（软蒸馏），并通过自定进度的专家选择控制学生模型从每个专家上的学习程度。并设计了curriculum instance selection，让模型从简单到难逐步学习样本。
 
 ## Decouple
 #### 1. Improving Calibration for Long-Tailed Recognition （2021）[For detailed](https://blog.csdn.net/weixin_41246832/article/details/127335796?spm=1001.2014.3001.5501)
