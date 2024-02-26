@@ -49,3 +49,8 @@ HTTN能够有效地检测从少量样本学习到大量样本学习的模型转�
 
 ## Recommend
 #### 1. Empowering Long-tail Item Recommendation through Cross Decoupling Network (2023 kDD)
+
+## Federated Learning 
+#### 1. Federated Learning on Heterogeneous and Long-Tailed Data via Classifier Re-Training with Federated Features (2022)
+
+解耦方法用在联邦学习
