@@ -10,7 +10,7 @@ Summary of the long-tailed learning algorithms
 
 首先作者提出了评价“长尾性”的4个指标，发现将整体数据划分为更小的邻接子集会减少长尾性。所以作者设计了多个小数据集上的专家模型共同指导一个学生模型（软蒸馏），并通过自定进度的专家选择控制学生模型从每个专家上的学习程度。并设计了curriculum instance selection，让模型从简单到难逐步学习样本。
 
-#### 3. Nested Collaborative Learning for Long-Tailed Visual Recognition （2022）
+#### 3. Nested Collaborative Learning for Long-Tailed Visual Recognition（2022）
 
 在表征学习中加入了自监督训练，之后设计了嵌套的个体学习和平衡的在线蒸馏，前者注重模型本身的学习，后者则是模型之间互相学习。两个阶段都通过使用全体样本和困难样本的两种方式嵌套学习。
 ## Contrastive Learning
@@ -23,6 +23,10 @@ Summary of the long-tailed learning algorithms
 #### 3. Self Supervision to Distillation for Long-Tailed Visual Recognition (2021)
 
 提出了自监督、解耦、类别采样和蒸馏结合的4步框架。
+#### 4. EXPLORING BALANCED FEATURE SPACES FOR REPRESENTATION LEARNING (2021)
+
+自监督的对比学习，使用k个正样本集合代替增强的样本（KCL）。
+#### 5. Targeted Supervised Contrastive Learning for Long-Tailed Recognition (2022)
 ## Decouple
 #### 1. Improving Calibration for Long-Tailed Recognition （2021）[For detailed](https://blog.csdn.net/weixin_41246832/article/details/127335796?spm=1001.2014.3001.5501)
 
