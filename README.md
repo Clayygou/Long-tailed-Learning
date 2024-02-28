@@ -40,6 +40,15 @@ HTTN能够有效地检测从少量样本学习到大量样本学习的模型转�
 #### 1. Curricular-balanced long-tailed learning (2024)
 
 从Neural Collapse phenomenon出发，设计了CurB loss （Curricular Balanced Loss）。
+## Mutual Information
+#### 1. Mutual Learning for Long-Tailed Recognition
+
+
+通过互信息框架，生成高质量的representation。推理时使用Post-Compensated Softmax。
+#### 2. Long-Tailed Recognition by Mutual Information Maximization between Latent Features and Ground-Truth Labels
+
+对比学习的本质是 ： 最大化潜在特征和输入数据的互信息。
+长尾任务需要的是：最大化潜在特征和标签之间的互信息。
 
 ## Relation Extraction
 #### 1. Learning Relation Prototype from Unlabeled Texts for Long-tail Relation Extraction (2023)
