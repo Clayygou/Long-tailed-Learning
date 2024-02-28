@@ -27,6 +27,9 @@ Summary of the long-tailed learning algorithms
 
 自监督的对比学习，使用k个正样本集合代替增强的样本（KCL）。
 #### 5. Targeted Supervised Contrastive Learning for Long-Tailed Recognition (2022)
+
+Targeted supervised contrastive learning (TSC)，离线计算每个类别中心点位置，在训练中动态分陪每个样本。
+
 ## Decouple
 #### 1. Improving Calibration for Long-Tailed Recognition （2021）[For detailed](https://blog.csdn.net/weixin_41246832/article/details/127335796?spm=1001.2014.3001.5501)
 
