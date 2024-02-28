@@ -20,6 +20,9 @@ Summary of the long-tailed learning algorithms
 #### 2. Contrastive Learning based Hybrid Networks for Long-Tailed Image Classification (2021)
 
 针对对比学习内存问题，提出了prototypical supervised contrastive来减少内存。使用双分支框架从注重对比学习损失慢慢转移到分类损失。
+#### 3. Self Supervision to Distillation for Long-Tailed Visual Recognition (2021)
+
+提出了自监督、解耦、类别采样和蒸馏结合的4步框架。
 ## Decouple
 #### 1. Improving Calibration for Long-Tailed Recognition （2021）[For detailed](https://blog.csdn.net/weixin_41246832/article/details/127335796?spm=1001.2014.3001.5501)
 
