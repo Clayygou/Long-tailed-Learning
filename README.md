@@ -36,6 +36,11 @@ HTTN能够有效地检测从少量样本学习到大量样本学习的模型转�
 
 框架以概率模型为基础，通过显式地解耦条件和边际类分布的建模，创新地改进了期望最大化(EM)算法。并且无需预先假设无标签数据的分布情况。（图像的半监督数据集）
 
+## Re-weighting(Loss)
+#### 1. Curricular-balanced long-tailed learning (2024)
+
+从Neural Collapse phenomenon出发，设计了CurB loss （Curricular Balanced Loss）。
+
 ## Relation Extraction
 #### 1. Learning Relation Prototype from Unlabeled Texts for Long-tail Relation Extraction (2023)
 
