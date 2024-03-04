@@ -29,6 +29,9 @@ Summary of the long-tailed learning algorithms
 #### 5. Targeted Supervised Contrastive Learning for Long-Tailed Recognition (2022)
 
 Targeted supervised contrastive learning (TSC)，离线计算每个类别中心点位置，在训练中动态分陪每个样本。
+#### 6. Prototype calibration for long tailed recognition (2023)
+
+基于prototype的对比损失和特征增强。分类ce损失加上原型和从分类器得到的中心点之间的损失，利用和尾部距离相近的头部数据增强尾部，使用Tukey’s Ladder of Powers transformation。
 
 ## Decouple
 #### 1. Improving Calibration for Long-Tailed Recognition （2021）[For detailed](https://blog.csdn.net/weixin_41246832/article/details/127335796?spm=1001.2014.3001.5501)
@@ -47,7 +50,7 @@ HTTN能够有效地检测从少量样本学习到大量样本学习的模型转�
 
 第一个元学习框架（MIMIC-III、EURLEX57K，包含zero-shot数据）。
 
-## Long-Tailed semi-supervised Learning
+## Semi-supervised Learning
 #### 1. SimPro: A Simple Probabilistic Framework Towards Realistic Long-Tailed Semi-Supervised Learning (2024)
 
 框架以概率模型为基础，通过显式地解耦条件和边际类分布的建模，创新地改进了期望最大化(EM)算法。并且无需预先假设无标签数据的分布情况。（图像的半监督数据集）
