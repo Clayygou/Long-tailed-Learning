@@ -49,7 +49,10 @@ HTTN能够有效地检测从少量样本学习到大量样本学习的模型转�
 #### 3. Meta-LMTC: Meta-Learning for Large-Scale Multi-Label Text Classification (2021)
 
 第一个元学习框架（MIMIC-III、EURLEX57K，包含zero-shot数据）。
+#### 4. Label-Specific Feature Augmentation for Long-Tailed Multi-Label Text Classification （2023）
 
+普通的增强方法会加剧长尾现象，所以采用为尾部标签增加正特征标签对的方法。具体分类解耦的特征表征学习阶段和头到尾的特征增强阶段。
+采用了label-specific encoder 和 prototypical 监督对比学习和Prototype-based Variational Autoencoder的增强方法。（AAPD RCV1 ERU_LEX）
 ## Semi-supervised Learning
 #### 1. SimPro: A Simple Probabilistic Framework Towards Realistic Long-Tailed Semi-Supervised Learning (2024)
 
