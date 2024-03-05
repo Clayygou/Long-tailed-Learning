@@ -39,6 +39,10 @@ Targeted supervised contrastive learning (TSC)，离线计算每个类别中心�
 引入了Expected calibration error的概念，通过在第一阶段使用mixup和LAS标签平滑可以有效地减低ECE。并在第二阶段只训练BN缓解两阶段数据的分布差异。
 
 ## Multi-Label Text Classification
+#### 6. Label-aware Document Representation via Hybrid Attention for Extreme Multi-Label Text Classification (2019)
+
+多标签的注意力机制来检测每个词对标签的贡献，交互的注意力机制来整合标签的共现性和文档内容，最后设计自适应的融合策略。
+
 #### 1. Does Head Label Help for Long-Tailed Multi-Label Text Classification (2021)
 
 HTTN能够有效地检测从少量样本学习到大量样本学习的模型转换策略（即关于学习的元知识）在头标签上的表现。借助元知识和头尾标签之间的标签依赖关系，HTTN能够高效地构建尾标签的分类器(数据集 AAPD、RCV1、EUR-Lex)。
