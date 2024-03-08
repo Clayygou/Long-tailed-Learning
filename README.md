@@ -16,7 +16,7 @@ Summary of the long-tailed learning algorithms
 ## Contrastive Learning
 #### 1. Balanced Contrastive Learning for Long-Tailed Visual Recognition (2023)
 
-提出了平衡的有监督对比学习方法，网络包含了分类分支和对比学习分支，最后使用Logit Compensation优化输出。对同一张图片做三种不同的数据增强，同时输入模型，第一张得到使用logit compensation修改的CE loss，并对第一张的logit通过MLP线性转换作为Prototype加入到和二三张图片的对比损失中。
+提出了平衡的有监督对比学习方法，网络包含了分类分支和对比学习分支，最后使用Logit Compensation优化输出。对同一张图片做三种不同的数据增强，同时输入模型，第一张得到使用logit compensation修改的CE loss，并对第一张的logit通过MLP非线性转换作为Prototype加入到和二三张图片的对比损失中。
 #### 2. Contrastive Learning based Hybrid Networks for Long-Tailed Image Classification (2021)
 
 针对对比学习内存问题，提出了prototypical supervised contrastive来减少内存。使用双分支框架从注重对比学习损失慢慢转移到分类损失。
