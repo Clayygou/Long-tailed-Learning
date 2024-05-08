@@ -104,3 +104,9 @@ HTTN能够有效地检测从少量样本学习到大量样本学习的模型转�
 #### 1. Federated Learning on Heterogeneous and Long-Tailed Data via Classifier Re-Training with Federated Features (2022)
 
 解耦方法用在联邦学习
+
+## plug and play
+
+#### 1、Escaping Saddle Points for Effective Generalization on Class-Imbalanced Data
+
+锐度感知最小化(SAM)，一种鼓励收敛到平坦最小值的最新技术，可以有效地用于逃避少数类的鞍点。
