@@ -38,6 +38,12 @@ Targeted supervised contrastive learning (TSC)，离线计算每个类别中心�
 
 引入了Expected calibration error的概念，通过在第一阶段使用mixup和LAS标签平滑可以有效地减低ECE。并在第二阶段只训练BN缓解两阶段数据的分布差异。
 
+#### 2. Label-Aware Distribution Calibration for Long-Tailed Classification (2021,2024)
+
+假设: 1.尾部分布可以从相似的头部类别中增强 2.相似的类别有相似的方差\均值
+
+(LADC) method 观察到头部尾部类别的相似性. 第一阶段先训练 、第二阶段用最相似的m个头部类计算均值和方差用于更新尾部样本，应用采样技术提升分类器的能力，最后改进了lws-plus。
+
 ## Multi-Label Text Classification
 #### 6. Label-aware Document Representation via Hybrid Attention for Extreme Multi-Label Text Classification (2019)
 
