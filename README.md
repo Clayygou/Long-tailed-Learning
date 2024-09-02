@@ -111,6 +111,12 @@ HTTN能够有效地检测从少量样本学习到大量样本学习的模型转�
 
 解耦方法用在联邦学习
 
+## Distilling Long-tailed Datasets
+
+#### 1、 Distilling Long-tailed Datasets （2024）
+
+蒸馏长尾数据集
+
 ## plug and play
 
 #### 1、Escaping Saddle Points for Effective Generalization on Class-Imbalanced Data
