@@ -111,6 +111,11 @@ HTTN能够有效地检测从少量样本学习到大量样本学习的模型转�
 
 #### 2、https://github.com/harrylee999/CRFDC/tree/main
 
+
+#### 3、A federated learning method based on class prototype guided classifier for long-tailed data （2024）
+
+1. **类原型引导的分类器重训练**：2. **全局原型的冻结机制**：防止头部过拟合
+
 解耦方法用在联邦学习
 
 ## Distilling Long-tailed Datasets
