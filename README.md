@@ -109,6 +109,8 @@ HTTN能够有效地检测从少量样本学习到大量样本学习的模型转�
 ## Federated Learning 
 #### 1. Federated Learning on Heterogeneous and Long-Tailed Data via Classifier Re-Training with Federated Features (2022)
 
+#### 2、https://github.com/harrylee999/CRFDC/tree/main
+
 解耦方法用在联邦学习
 
 ## Distilling Long-tailed Datasets
