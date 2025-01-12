@@ -124,6 +124,10 @@ HTTN能够有效地检测从少量样本学习到大量样本学习的模型转�
 
 蒸馏长尾数据集
 
+## Skeleton Based Action Recognition
+
+[Shap-Mix: Shapley Value Guided Mixing for Long-Tailed Skeleton Based Action Recognition ](https://github.com/JHang2020/Shap-Mix?tab=readme-ov-file) 2024
+
 ## plug and play
 
 #### 1、Escaping Saddle Points for Effective Generalization on Class-Imbalanced Data
