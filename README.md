@@ -33,6 +33,24 @@ Targeted supervised contrastive learning (TSC)，离线计算每个类别中心�
 
 基于prototype的对比损失和特征增强。分类ce损失加上原型和从分类器得到的中心点之间的损失（和BCL相似），利用和尾部距离相近的头部原型数据增强尾部，使用Tukey’s Ladder of Powers transformation。
 
+#### 7. Decoupled Contrastive Learning for Long-Tailed Recognition
+
+本文提出一种解耦监督对比学习与基于 patch 的自蒸馏方法，以缓解长尾识别中的类间不平衡与尾类表征不足问题。
+
+This paper proposes a decoupled supervised contrastive learning and patch-based self-distillation framework to address inter-class imbalance and tail class under-representation in long-tailed recognition.
+
+#### 8. Probabilistic Contrastive Learning for Long-Tailed Visual Recognition
+
+本文提出一种基于 vMF 分布建模的概率对比学习算法 ProCo，通过估计类别分布并生成无限对比对，缓解长尾数据中小批量构造对比样本的难题。
+
+This paper proposes ProCo, a probabilistic contrastive learning algorithm that models class-wise feature distributions with von Mises-Fisher mixtures to generate contrastive pairs efficiently under class-imbalanced data.
+
+#### 9.Enhanced Long-Tailed Recognition with Contrastive CutMix Augmentation
+
+本文提出 ConCutMix，通过语义相似度修正 CutMix 的面积标签，实现对尾部类别更有效的增强与训练，显著提升长尾识别性能。
+
+This paper proposes ConCutMix, which refines area-based labels in CutMix using semantic similarity to generate more accurate supervision for tail classes in long-tailed recognition.
+
 ## Decouple
 #### 1. Improving Calibration for Long-Tailed Recognition （2021）[For detailed](https://blog.csdn.net/weixin_41246832/article/details/127335796?spm=1001.2014.3001.5501)
 
@@ -81,12 +99,17 @@ HTTN能够有效地检测从少量样本学习到大量样本学习的模型转�
 ## Mutual Information
 #### 1. Mutual Learning for Long-Tailed Recognition
 
-
 通过互信息框架，生成高质量的representation。推理时使用Post-Compensated Softmax。
 #### 2. Long-Tailed Recognition by Mutual Information Maximization between Latent Features and Ground-Truth Labels
 
 对比学习的本质是 ： 最大化潜在特征和输入数据的互信息。
 长尾任务需要的是：最大化潜在特征和标签之间的互信息。
+
+#### 3. Semantic Transfer from Head to Tail: Enlarging Tail Margin for Long-Tailed Visual Recognition
+
+本文提出 SMART，通过迁移头类的语义协方差增强尾类特征表达，并引入语义加权策略扩大尾类分类间隔，实现无参数开销的长尾识别性能提升。
+
+This paper proposes SMART, a parameter-free semantic transfer method that augments tail features by borrowing semantic covariance from head classes and adaptively enlarges tail margins for improved long-tailed recognition.
 
 ## Relation Extraction
 #### 1. Learning Relation Prototype from Unlabeled Texts for Long-tail Relation Extraction (2023)
